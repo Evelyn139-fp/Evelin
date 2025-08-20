@@ -1,1 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NATURRALEZA</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .header {
+      padding: 5,0px;
+      background-color: #b91d85;
+      text-align: center  ;
+    }
+
+    /* estilo parar la base del menu */
+    .topnav {
+      overflow: hidden;
+      background-color: #46b829;
+    }
+
+    /* Enlaces del menu */
+    .topnav a {
+      float: left;
+ display: block;
+      color: #F2F2F2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Animacion para el menu */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black
+    }
+
+    /* Estilo para columnas */
+    .row__column {
+      float: left;
+      padding: 18px;
+    }
+
+    .row__column.side {
+      width: 15%;
+    }
+
+    .row__column.middle {
+    width: 60%;
+    }
+
+    /* Contenido deje de ser flotante */
+    .row::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Plantilla responsiva */
+    @media screen and (max-width: 600px) {
+      .row__column {
+        width: 100%;
+      }
+    }
+
+    /* Pie de pagina */
+    .footer {
+      background-color: #f1f1f1;
+      padding: 10px;
+      text-align: center;
+      
+    }
+    
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" /> 
+    
+  </style>
+</head>
+
+<body>
+  <!-- Definimos el area del encabezado -->
+  <div class="header">
+      <h1>🌿 La Naturaleza</h1>
+  </div>
+
+  <!-- Crear el menu -->
+  <div class="topnav">
+    <a href="https://www.mined.gob.sv/" >Cuidar la naturaleza</a>
+            <!--p align="rigth">MINED -->
+    <a href="#"> es cuidar</a>
+    <a href="#">de nosotros mismos.</a>
+    <a href="https://www.nintendo.com/us/">Salazarpeña</a>
+    <a href=""></a>
+  </div>
+  <!-- cuerpo de la pagina -->
+  <div class="row">`
+    <div class="row__column side">
+      <h2>🌿 </h2>
+      <p> La naturaleza es el conjunto de seres vivos, paisajes, climas, suelos, aguas y todo aquello que forma nuestro planeta.</p>
+    </div>
+    <div class="row__column middle">
+      <h2>Bienvenidos.</h2>
+      <p> A un lugar donde la naturaleza inspira vida. Árboles, ríos y vientos que conectan con nuestra esencia.</p>
+    </div>
+    <div class="row__column side">
+      <h2>🍃
+</h2>
+      <p>La naturaleza nos da vida y bienestar. Cuidarla es proteger nuestro futuro y mantener el equilibrio que sostiene el planeta.</p>
+    </div>
+  </div>
+  <!-- inicio del piede de pagina -->
+  <div class="footer">
+   <marquee> <p> <h3>El atardecer es uno de los espectáculos más hermosos que nos regala la naturaleza. </h3> </p></marquee>
+  </div>
+  <p>
+  
+  <div class="footer">
+    <p> <h3>🌱
+“Naturaleza: el arte perfecto que no necesita retoques.”</h3> </p>
+  </div>
+  </p>
+ <p>  <div class="footer">
+   <MARQUEE> <p>  <h3>“Quien cuida la naturaleza, cuida su futuro.”
+ </h3> </p>
+  </div>
+  </p></MARQUEE>
+
+    <p>
+  
+  <div class="footer">
+    <p> <h3>cuando el cielo arde en colore, la naturaleza nos abraza en silencio. </h3> </p>
+  </div>
+  </p>
+   
+  
+  <audio controls> <source src="Audio .mp3" type="Audio/mp3"> Tu navegador no soporta audio HTML5. </audio>
+ 
+  <marquee> <img src="arbol.png" width="400" height="200"/> </marquee>
+  <marquee behavior="alternate"> <img src="Imagen .png" width="400" height="200"  onmouseOver="this.src='nip2.jpg'" onmouseOut= "this.src='Cari2.png'"/> </marquee>
+
+     <video width="600" height="400" controls>
+    <source src="Video .mp4" type="video/mp4">
+       </video>
+       
+         <a href="Base Access China.html"> Registros  </a> <br> 
+    
+    <A HREF="index.html">  A hoja 2  </A> <br>
+    <A HREF="iindex.html"> A hoja 3 </A>
+  
+  </body>
+
+</html>
+
+
+
 # Evelin
